@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shoes 1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="img/Deadpool-logo.png" alt="iramka" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">home</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">account</a></li>
+                <li><a href="#">account</a></li>
+            </ul>
+        </nav>
+        <a href=""><img src="img/cart.png" alt="cart" width="30px" height="25px"></a>
+        <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" alt="menu">
+    </div>
+
+    
+</div>
+
+
+<div class="small-container">
+
+    <div class="row row-2">
+        <h2>SHOES</h2>
+    <select>
+        <option>default sorting</option>
+        <option>sort by price</option>
+        <option>sort by popularity</option>
+        <option>sort by sale</option>
+    </select>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-4">
+         <a href="yeezy v3.html"><img src="img/1.jpg" alt="vlone"></a>
+         <h4>Yeezy V3</h4>
+         <p>$13.00</p>
+         <a href="#" class="btn">add to cart</a>
+     </div>
+     <div class="col-4">
+         <img src="img/2.jpg" alt="vlone">
+         <h4>White V-lone T-shirt</h4>
+         <p>$13.00</p>
+         <a href="#" class="btn">add to cart</a>
+     </div>
+     <div class="col-4">
+         <img src="img/3.jpg" alt="vlone">
+         <h4>White V-lone T-shirt</h4>
+         <p>$13.00</p>
+         <a href="#" class="btn">add to cart</a>
+     </div>
+     <div class="col-4">
+         <img src="img/4.png" alt="vlone">
+         <h4>White V-lone T-shirt</h4>
+         <p>$13.00</p>
+         <a href="#" class="btn">add to cart</a>
+     </div>
+     <div class="col-4">
+         <img src="img/5.jpg" alt="vlone">
+         <h4>White V-lone T-shirt</h4>
+         <p>$13.00</p>
+         <a href="#" class="btn">add to cart</a>
+     </div>
+     <div class="col-4">
+         <img src="img/6.jpg" alt="vlone">
+         <h4>White V-lone T-shirt</h4>
+         <p>$13.00</p>
+         <a href="#" class="btn">add to cart</a>
+     </div>
+     <div class="col-4">
+         <img src="img/7.png" alt="vlone">
+         <h4>White V-lone T-shirt</h4>
+         <p>$13.00</p>
+         <a href="#" class="btn">add to cart</a>
+     </div>
+     
+     <div class="col-4">
+         <img src="img/8.png" alt="vlone">
+         <h4>Air Max 97 “Off-White - Queen ”</h4>
+         <p>$13.00</p>
+         <a href="#" class="btn">add to cart</a>
+     </div>   
+     <div class="col-4">
+         <img src="img/9.png" alt="vlone">
+         <h4>Air Jordan 4 SP WMNS “Off-White - Sail”</h4>
+         <p>$13.00</p>
+         <a href="#" class="btn">add to cart</a>
+     </div>
+     <div class="col-4">
+         <img src="img/10.png" alt="vlone">
+         <h4>Air Jordan 1 Low <br> _Travis Scott</h4>
+         <p>$13.00</p>
+         <a href="#" class="btn">add to cart</a>
+     </div>
+     <div class="col-4">
+         <img src="img/11.png" alt="vlone">
+         <h4>Air Jordan 1 High <br> “Dior”</h4>
+         <p>$13.00</p>
+         <a href="#" class="btn">add to cart</a>
+     </div>
+     <div class="col-4">
+         <img src="img/12.png" alt="vlone">
+         <h4>Yeezy Boost 700 <br> _Inertia_</h4>
+         <p>$13.00</p>
+         <a href="#" class="btn">add to cart</a>
+     </div>
+    </div>
+
+    <div class="page-btn">
+        <a href="shoes 1.html"><span>1</span></a>
+        <a href="shoes 2.html"><span>&#8594;</span></a>
+    </div>
+</div>
+
+    <!--f00ter--------------------------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our app</h3>
+                    <p>download app for android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <a href=""><img src="img/play-store.png" alt="playstore"></a>
+                        <a href=""><img src="img/app-store.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/AntMan-logo.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur<br>
+                         adipisicing elit. Alias, quam.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Find Us</h3>
+                   <a href="instagram.com"><img src="img/instagram.png" alt=""></a> <br>
+                   <br>
+                   <a href=""><img src="img/whatsapp.png" alt=""></a>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright&copy; 2020 - johnie on the run</p>
+        </div>
+    </div>
+
+
+    <!--------------js for togle menu----------------->
+    <script>
+          var MenuItems = document.getElementById("MenuItems");
+
+          MenuItems.style.maxHeight = "0px";
+
+          function menutoggle(){
+              if(MenuItems.style.maxHeight == "0px")
+              {
+                MenuItems.style.maxHeight = "200px";
+              }
+              else
+              {
+                MenuItems.style.maxHeight = "0px";
+              }
+          }
+
+    </script>
+</body>
+</html>
